@@ -20,14 +20,7 @@ get_template_part('template-parts' . $translations . '/footer-content'); ?>
 <?php } ?>
         <?php $showBackLink = get_option('np_hide_backlink') ? false : true; ?>
 <?php if ($showBackLink) : $GLOBALS['theme_backlink'] = true; ?>
-<section class="u-backlink u-clearfix u-grey-80">
-            <p class="u-text">
-                <span>This site was created with the </span>
-                <a class="u-link" href="https://nicepage.com/" target="_blank" rel="nofollow">
-                    <span>Nicepage</span>
-                </a>
-             </p>
-    </section>
+
 <?php endif; ?>
         
 	</div><!-- .site-inner -->
